@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		398BAAA81B4B39C000051E2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 398BAAA71B4B39C000051E2D /* main.m */; };
+		398BAAAB1B4B39C000051E2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 398BAAAA1B4B39C000051E2D /* AppDelegate.m */; };
+		398BAAAE1B4B39C000051E2D /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 398BAAAD1B4B39C000051E2D /* GameScene.m */; };
+		398BAAB01B4B39C000051E2D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 398BAAAF1B4B39C000051E2D /* GameScene.sks */; };
+		398BAAB31B4B39C000051E2D /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 398BAAB21B4B39C000051E2D /* GameViewController.m */; };
+		398BAAB61B4B39C000051E2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 398BAAB41B4B39C000051E2D /* Main.storyboard */; };
+		398BAAB81B4B39C000051E2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 398BAAB71B4B39C000051E2D /* Images.xcassets */; };
+		398BAABB1B4B39C000051E2D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 398BAAB91B4B39C000051E2D /* LaunchScreen.xib */; };
+		398BAAC71B4B39C000051E2D /* MissileMan_V_S_MuscleManTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 398BAAC61B4B39C000051E2D /* MissileMan_V_S_MuscleManTests.m */; };
+		398BAB1B1B4CD0BD00051E2D /* character.1.png in Resources */ = {isa = PBXBuildFile; fileRef = 398BAB181B4CD0BC00051E2D /* character.1.png */; };
+		39CF2EFF1B5EDE000098C450 /* character.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39CF2EFD1B5EDE000098C450 /* character.plist */; };
+		39EA48051B696FFD0099FE79 /* Game_Instructions.png in Resources */ = {isa = PBXBuildFile; fileRef = 39EA48041B696FFD0099FE79 /* Game_Instructions.png */; };
+		9BCAC6FC1B6940760027B1CA /* MenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9BCAC6FB1B6940760027B1CA /* MenuScene.sks */; };
+		9BCAC6FF1B6940AF0027B1CA /* MenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCAC6FE1B6940AF0027B1CA /* MenuScene.m */; };
+		9BCAC7041B69413F0027B1CA /* credits_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCAC7001B69413F0027B1CA /* credits_btn.png */; };
+		9BCAC7051B69413F0027B1CA /* loading_splash_screen in Resources */ = {isa = PBXBuildFile; fileRef = 9BCAC7011B69413F0027B1CA /* loading_splash_screen */; };
+		9BCAC7061B69413F0027B1CA /* menu_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCAC7021B69413F0027B1CA /* menu_background.png */; };
+		9BCAC7071B69413F0027B1CA /* play_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCAC7031B69413F0027B1CA /* play_btn.png */; };
+		9BCAC7091B6942550027B1CA /* menu_fut_boy.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCAC7081B6942550027B1CA /* menu_fut_boy.png */; };
+		9BCAC70C1B69585B0027B1CA /* InstructionScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9BCAC70B1B69585B0027B1CA /* InstructionScene.sks */; };
+		9BCAC70F1B6958910027B1CA /* InstructionScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCAC70E1B6958910027B1CA /* InstructionScene.m */; };
+		9BCAC7111B695B230027B1CA /* instruction_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCAC7101B695B230027B1CA /* instruction_btn.png */; };
+		9BFC703C1B4F215800773703 /* start.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9BFC703A1B4F215800773703 /* start.mp3 */; };
+		9BFC703D1B4F215800773703 /* kick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9BFC703B1B4F215800773703 /* kick.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		398BAAC11B4B39C000051E2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 398BAA9A1B4B39C000051E2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 398BAAA11B4B39C000051E2D;
+			remoteInfo = "MissileMan V.S MuscleMan";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		398BAAA21B4B39C000051E2D /* FutBoy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FutBoy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		398BAAA61B4B39C000051E2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		398BAAA71B4B39C000051E2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		398BAAA91B4B39C000051E2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		398BAAAA1B4B39C000051E2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		398BAAAC1B4B39C000051E2D /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		398BAAAD1B4B39C000051E2D /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		398BAAAF1B4B39C000051E2D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		398BAAB11B4B39C000051E2D /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		398BAAB21B4B39C000051E2D /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		398BAAB51B4B39C000051E2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		398BAAB71B4B39C000051E2D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		398BAABA1B4B39C000051E2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		398BAAC01B4B39C000051E2D /* FutBoyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FutBoyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		398BAAC51B4B39C000051E2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		398BAAC61B4B39C000051E2D /* MissileMan_V_S_MuscleManTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MissileMan_V_S_MuscleManTests.m; sourceTree = "<group>"; };
+		398BAB181B4CD0BC00051E2D /* character.1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = character.1.png; sourceTree = "<group>"; };
+		39CF2EFD1B5EDE000098C450 /* character.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = character.plist; sourceTree = "<group>"; };
+		39CF2F001B5EDE930098C450 /* FutBoyChar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FutBoyChar.h; sourceTree = "<group>"; };
+		39EA48041B696FFD0099FE79 /* Game_Instructions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Game_Instructions.png; sourceTree = "<group>"; };
+		9BCAC6FB1B6940760027B1CA /* MenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MenuScene.sks; sourceTree = "<group>"; };
+		9BCAC6FD1B6940AF0027B1CA /* MenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuScene.h; sourceTree = "<group>"; };
+		9BCAC6FE1B6940AF0027B1CA /* MenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuScene.m; sourceTree = "<group>"; };
+		9BCAC7001B69413F0027B1CA /* credits_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = credits_btn.png; sourceTree = "<group>"; };
+		9BCAC7011B69413F0027B1CA /* loading_splash_screen */ = {isa = PBXFileReference; lastKnownFileType = file; path = loading_splash_screen; sourceTree = "<group>"; };
+		9BCAC7021B69413F0027B1CA /* menu_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_background.png; sourceTree = "<group>"; };
+		9BCAC7031B69413F0027B1CA /* play_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_btn.png; sourceTree = "<group>"; };
+		9BCAC7081B6942550027B1CA /* menu_fut_boy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_fut_boy.png; sourceTree = "<group>"; };
+		9BCAC70B1B69585B0027B1CA /* InstructionScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = InstructionScene.sks; sourceTree = "<group>"; };
+		9BCAC70D1B6958910027B1CA /* InstructionScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstructionScene.h; sourceTree = "<group>"; };
+		9BCAC70E1B6958910027B1CA /* InstructionScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructionScene.m; sourceTree = "<group>"; };
+		9BCAC7101B695B230027B1CA /* instruction_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instruction_btn.png; sourceTree = "<group>"; };
+		9BFC703A1B4F215800773703 /* start.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = start.mp3; sourceTree = "<group>"; };
+		9BFC703B1B4F215800773703 /* kick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kick.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		398BAA9F1B4B39C000051E2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		398BAABD1B4B39C000051E2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		398BAA991B4B39C000051E2D = {
+			isa = PBXGroup;
+			children = (
+				398BAAA41B4B39C000051E2D /* FutBoy */,
+				398BAAC31B4B39C000051E2D /* MissileMan V.S MuscleManTests */,
+				398BAAA31B4B39C000051E2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		398BAAA31B4B39C000051E2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				398BAAA21B4B39C000051E2D /* FutBoy.app */,
+				398BAAC01B4B39C000051E2D /* FutBoyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		398BAAA41B4B39C000051E2D /* FutBoy */ = {
+			isa = PBXGroup;
+			children = (
+				9BCAC7101B695B230027B1CA /* instruction_btn.png */,
+				39EA48041B696FFD0099FE79 /* Game_Instructions.png */,
+				9BCAC7081B6942550027B1CA /* menu_fut_boy.png */,
+				9BCAC7001B69413F0027B1CA /* credits_btn.png */,
+				9BCAC7011B69413F0027B1CA /* loading_splash_screen */,
+				9BCAC7021B69413F0027B1CA /* menu_background.png */,
+				9BCAC7031B69413F0027B1CA /* play_btn.png */,
+				9BFC703A1B4F215800773703 /* start.mp3 */,
+				9BFC703B1B4F215800773703 /* kick.mp3 */,
+				398BAB171B4CD0BC00051E2D /* character.atlasc */,
+				39CF2F001B5EDE930098C450 /* FutBoyChar.h */,
+				398BAAA91B4B39C000051E2D /* AppDelegate.h */,
+				398BAAAA1B4B39C000051E2D /* AppDelegate.m */,
+				398BAAB11B4B39C000051E2D /* GameViewController.h */,
+				398BAAB21B4B39C000051E2D /* GameViewController.m */,
+				9BCAC6F81B693FD60027B1CA /* Scenes */,
+				398BAAB41B4B39C000051E2D /* Main.storyboard */,
+				398BAAB71B4B39C000051E2D /* Images.xcassets */,
+				398BAAB91B4B39C000051E2D /* LaunchScreen.xib */,
+				398BAAA51B4B39C000051E2D /* Supporting Files */,
+			);
+			name = FutBoy;
+			path = "MissileMan V.S MuscleMan";
+			sourceTree = "<group>";
+		};
+		398BAAA51B4B39C000051E2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				398BAAA61B4B39C000051E2D /* Info.plist */,
+				398BAAA71B4B39C000051E2D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		398BAAC31B4B39C000051E2D /* MissileMan V.S MuscleManTests */ = {
+			isa = PBXGroup;
+			children = (
+				398BAAC61B4B39C000051E2D /* MissileMan_V_S_MuscleManTests.m */,
+				398BAAC41B4B39C000051E2D /* Supporting Files */,
+			);
+			path = "MissileMan V.S MuscleManTests";
+			sourceTree = "<group>";
+		};
+		398BAAC41B4B39C000051E2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				398BAAC51B4B39C000051E2D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		398BAB171B4CD0BC00051E2D /* character.atlasc */ = {
+			isa = PBXGroup;
+			children = (
+				398BAB181B4CD0BC00051E2D /* character.1.png */,
+				39CF2EFD1B5EDE000098C450 /* character.plist */,
+			);
+			path = character.atlasc;
+			sourceTree = "<group>";
+		};
+		9BCAC6F81B693FD60027B1CA /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				9BCAC70A1B69582F0027B1CA /* InstructionScene */,
+				9BCAC6FA1B69402C0027B1CA /* MenuScene */,
+				9BCAC6F91B693FDF0027B1CA /* GameScene */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		9BCAC6F91B693FDF0027B1CA /* GameScene */ = {
+			isa = PBXGroup;
+			children = (
+				398BAAAC1B4B39C000051E2D /* GameScene.h */,
+				398BAAAD1B4B39C000051E2D /* GameScene.m */,
+				398BAAAF1B4B39C000051E2D /* GameScene.sks */,
+			);
+			name = GameScene;
+			sourceTree = "<group>";
+		};
+		9BCAC6FA1B69402C0027B1CA /* MenuScene */ = {
+			isa = PBXGroup;
+			children = (
+				9BCAC6FB1B6940760027B1CA /* MenuScene.sks */,
+				9BCAC6FD1B6940AF0027B1CA /* MenuScene.h */,
+				9BCAC6FE1B6940AF0027B1CA /* MenuScene.m */,
+			);
+			name = MenuScene;
+			sourceTree = "<group>";
+		};
+		9BCAC70A1B69582F0027B1CA /* InstructionScene */ = {
+			isa = PBXGroup;
+			children = (
+				9BCAC70B1B69585B0027B1CA /* InstructionScene.sks */,
+				9BCAC70D1B6958910027B1CA /* InstructionScene.h */,
+				9BCAC70E1B6958910027B1CA /* InstructionScene.m */,
+			);
+			name = InstructionScene;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		398BAAA11B4B39C000051E2D /* FutBoy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 398BAACA1B4B39C000051E2D /* Build configuration list for PBXNativeTarget "FutBoy" */;
+			buildPhases = (
+				398BAA9E1B4B39C000051E2D /* Sources */,
+				398BAA9F1B4B39C000051E2D /* Frameworks */,
+				398BAAA01B4B39C000051E2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FutBoy;
+			productName = "MissileMan V.S MuscleMan";
+			productReference = 398BAAA21B4B39C000051E2D /* FutBoy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		398BAABF1B4B39C000051E2D /* FutBoyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 398BAACD1B4B39C000051E2D /* Build configuration list for PBXNativeTarget "FutBoyTests" */;
+			buildPhases = (
+				398BAABC1B4B39C000051E2D /* Sources */,
+				398BAABD1B4B39C000051E2D /* Frameworks */,
+				398BAABE1B4B39C000051E2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				398BAAC21B4B39C000051E2D /* PBXTargetDependency */,
+			);
+			name = FutBoyTests;
+			productName = "MissileMan V.S MuscleManTests";
+			productReference = 398BAAC01B4B39C000051E2D /* FutBoyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		398BAA9A1B4B39C000051E2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Omar Davila";
+				TargetAttributes = {
+					398BAAA11B4B39C000051E2D = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					398BAABF1B4B39C000051E2D = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 398BAAA11B4B39C000051E2D;
+					};
+				};
+			};
+			buildConfigurationList = 398BAA9D1B4B39C000051E2D /* Build configuration list for PBXProject "FutBoy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 398BAA991B4B39C000051E2D;
+			productRefGroup = 398BAAA31B4B39C000051E2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				398BAAA11B4B39C000051E2D /* FutBoy */,
+				398BAABF1B4B39C000051E2D /* FutBoyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		398BAAA01B4B39C000051E2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398BAABB1B4B39C000051E2D /* LaunchScreen.xib in Resources */,
+				398BAB1B1B4CD0BD00051E2D /* character.1.png in Resources */,
+				398BAAB81B4B39C000051E2D /* Images.xcassets in Resources */,
+				398BAAB01B4B39C000051E2D /* GameScene.sks in Resources */,
+				39CF2EFF1B5EDE000098C450 /* character.plist in Resources */,
+				9BCAC7051B69413F0027B1CA /* loading_splash_screen in Resources */,
+				39EA48051B696FFD0099FE79 /* Game_Instructions.png in Resources */,
+				9BCAC7061B69413F0027B1CA /* menu_background.png in Resources */,
+				9BCAC7091B6942550027B1CA /* menu_fut_boy.png in Resources */,
+				398BAAB61B4B39C000051E2D /* Main.storyboard in Resources */,
+				9BFC703D1B4F215800773703 /* kick.mp3 in Resources */,
+				9BCAC7071B69413F0027B1CA /* play_btn.png in Resources */,
+				9BCAC7111B695B230027B1CA /* instruction_btn.png in Resources */,
+				9BCAC70C1B69585B0027B1CA /* InstructionScene.sks in Resources */,
+				9BCAC6FC1B6940760027B1CA /* MenuScene.sks in Resources */,
+				9BFC703C1B4F215800773703 /* start.mp3 in Resources */,
+				9BCAC7041B69413F0027B1CA /* credits_btn.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		398BAABE1B4B39C000051E2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		398BAA9E1B4B39C000051E2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398BAAB31B4B39C000051E2D /* GameViewController.m in Sources */,
+				9BCAC70F1B6958910027B1CA /* InstructionScene.m in Sources */,
+				9BCAC6FF1B6940AF0027B1CA /* MenuScene.m in Sources */,
+				398BAAAB1B4B39C000051E2D /* AppDelegate.m in Sources */,
+				398BAAAE1B4B39C000051E2D /* GameScene.m in Sources */,
+				398BAAA81B4B39C000051E2D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		398BAABC1B4B39C000051E2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398BAAC71B4B39C000051E2D /* MissileMan_V_S_MuscleManTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		398BAAC21B4B39C000051E2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 398BAAA11B4B39C000051E2D /* FutBoy */;
+			targetProxy = 398BAAC11B4B39C000051E2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		398BAAB41B4B39C000051E2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				398BAAB51B4B39C000051E2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		398BAAB91B4B39C000051E2D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				398BAABA1B4B39C000051E2D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		398BAAC81B4B39C000051E2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		398BAAC91B4B39C000051E2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		398BAACB1B4B39C000051E2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MissileMan V.S MuscleMan/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = FutBoy;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		398BAACC1B4B39C000051E2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MissileMan V.S MuscleMan/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = FutBoy;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		398BAACE1B4B39C000051E2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MissileMan V.S MuscleManTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = FutBoyTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FutBoy.app/FutBoy";
+			};
+			name = Debug;
+		};
+		398BAACF1B4B39C000051E2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MissileMan V.S MuscleManTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = FutBoyTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FutBoy.app/FutBoy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		398BAA9D1B4B39C000051E2D /* Build configuration list for PBXProject "FutBoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				398BAAC81B4B39C000051E2D /* Debug */,
+				398BAAC91B4B39C000051E2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		398BAACA1B4B39C000051E2D /* Build configuration list for PBXNativeTarget "FutBoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				398BAACB1B4B39C000051E2D /* Debug */,
+				398BAACC1B4B39C000051E2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		398BAACD1B4B39C000051E2D /* Build configuration list for PBXNativeTarget "FutBoyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				398BAACE1B4B39C000051E2D /* Debug */,
+				398BAACF1B4B39C000051E2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 398BAA9A1B4B39C000051E2D /* Project object */;
+}
